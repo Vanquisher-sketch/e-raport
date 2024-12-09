@@ -14,7 +14,7 @@ class HomeController extends Controller
         return view('TampilanAdmin');
     }
     public function index(){
-        $data = User::get();
+        $us = User::get();
 
         return view('index', compact('data'));
     }
