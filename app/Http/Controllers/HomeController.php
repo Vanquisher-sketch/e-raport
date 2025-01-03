@@ -13,6 +13,12 @@ class HomeController extends Controller
     public function TampilanAdmin(){
         return view('TampilanAdmin');
     }
+
+    public function TampilGuru()
+    {
+        return view('TampilanGuru');
+    }
+    
     public function index(){
         $us = User::get();
 
