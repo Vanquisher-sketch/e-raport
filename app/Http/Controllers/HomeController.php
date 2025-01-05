@@ -24,4 +24,9 @@ class HomeController extends Controller
 
         return view('index', compact('data'));
     }
+
+    public function layout()
+    {
+        return view('layout.GuruMain');
+    }
 }

@@ -22,5 +22,5 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/',[HomeController::class, 'TampilanAdmin']);
+Route::get('/',[HomeController::class, 'TampilGuru']);
 Route::get('/guru/dashboard', [DashboardController::class, 'guruDashboard']);
